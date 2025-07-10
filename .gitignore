@@ -1,8 +1,6 @@
 # Rust build artifacts
 **/target/
 **/*.rs.bk
-**/*.exe
-**/*.pdb
 
 # Cargo lock file 
 Cargo.lock
@@ -16,3 +14,10 @@ Cargo.lock
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
